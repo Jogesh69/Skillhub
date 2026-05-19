@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#07111f;
+    color:white;
+}
+
+header{
+    background:#0b1728;
+    padding:20px 50px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#00d4ff;
+    font-size:40px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00d4ff;
+}
+
+.hero{
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h2{
+    font-size:60px;
+    color:#00d4ff;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#00d4ff;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+.card{
+    width:300px;
+    background:#0b1728;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #00d4ff;
+    text-align:center;
+}
+
+.card h3{
+    color:#00d4ff;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.6;
+}
+
+footer{
+    background:#0b1728;
+    text-align:center;
+    padding:20px;
+}
+
+.login-section{
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    width:400px;
+    background:#0b1728;
+    padding:40px;
+    border-radius:15px;
+    border:1px solid #00d4ff;
+    box-shadow:0 0 20px rgba(0,212,255,0.3);
+}
+
+.login-box h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#00d4ff;
+    font-size:35px;
+}
+
+.login-box form{
+    display:flex;
+    flex-direction:column;
+}
+
+.login-box input{
+    margin-bottom:20px;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    font-size:16px;
+}
+
+.login-box button{
+    padding:15px;
+    background:#00d4ff;
+    color:black;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login-box button:hover{
+    background:white;
+}
+
+.register-section{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register-box{
+    width:450px;
+    background:#0b1728;
+    padding:40px;
+    border-radius:15px;
+    border:1px solid #00d4ff;
+    box-shadow:0 0 20px rgba(0,212,255,0.3);
+}
+
+.register-box h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#00d4ff;
+    font-size:35px;
+}
+
+.register-box form{
+    display:flex;
+    flex-direction:column;
+}
+
+.register-box input{
+    margin-bottom:18px;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    font-size:16px;
+}
+
+.register-box button{
+    padding:15px;
+    background:#00d4ff;
+    color:black;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.register-box button:hover{
+    background:white;
+}
+
+.services-page{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.services-page h2{
+    font-size:50px;
+    color:#00d4ff;
+    margin-bottom:50px;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width:320px;
+    background:#0b1728;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #00d4ff;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(0,212,255,0.2);
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,212,255,0.5);
+}
+
+.service-card h3{
+    color:#00d4ff;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.service-card p{
+    line-height:1.7;
+    font-size:17px;
+}
+
+.catalogue-section{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.catalogue-section h2{
+    font-size:50px;
+    color:#00d4ff;
+    margin-bottom:50px;
+}
+
+table{
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+    background:#0b1728;
+    box-shadow:0 0 20px rgba(0,212,255,0.2);
+}
+
+table th{
+    background:#00d4ff;
+    color:black;
+    padding:20px;
+    font-size:20px;
+}
+
+table td{
+    padding:18px;
+    border:1px solid #00d4ff;
+    font-size:18px;
+}
+
+table tr:hover{
+    background:#11233d;
+}
